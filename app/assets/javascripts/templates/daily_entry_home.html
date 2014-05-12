@@ -1,0 +1,15 @@
+<h1>Enter Weight for {{daily_entry.date | date:midDate}}</h1>
+<form ng-submit="createWeight()">
+    <label>Weight:</label>
+    <input type="number" step="any" ng-model='newWeight.measured_weight'><br>
+    <label>Time Weighed:</label>
+    <input type="time" ng-model='newWeight.time_weighed'><br>
+    <input type="submit" value="Add Daily Entry">
+    <ul>
+        <li ng-repeat="weight in daily_entry.weights">
+            {{weight.measured_weight}} - {{weight.time_weighed | date:'h:mma'}} -
+            <a href='' ng-click="deleteWeight(weight.id, $index)">Remove</a>
+        </li>
+    </ul>
+    <a href='#/'>Back Home</a>
+</form>

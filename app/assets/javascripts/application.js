@@ -10,7 +10,17 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+
+
+//= require angular
+//= require angular-resource
+//= require angular-route
+//= require angular-rails-templates
+//= require main.js
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
+//= require_tree ./angular
+//= require_tree ./templates
+//= require bootstrap.min
 //= require_tree .
+

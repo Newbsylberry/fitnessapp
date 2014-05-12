@@ -1,4 +1,15 @@
 Fitnessapp::Application.routes.draw do
+
+  resources :weights
+
+  scope :api do
+    resources :daily_entries, defaults: {format: :json}
+    resources :weights, defaults: {format: :json}
+  end
+
+
+  root 'static_pages#index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

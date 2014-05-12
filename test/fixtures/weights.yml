@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  daily_entry_id: 1
+  time_weighed: 2014-05-12 00:15:40
+  weight: 9.99
+
+two:
+  daily_entry_id: 1
+  time_weighed: 2014-05-12 00:15:40
+  weight: 9.99

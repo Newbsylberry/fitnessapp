@@ -1,0 +1,11 @@
+<h1>Add Daily Entry:</h1>
+<form ng-submit="createDailyEntry()">
+    <label>Daily Entry Date:</label>
+    <input type="date" ng-model='newDailyEntry.date'><br>
+    <input type="submit" value="Add Daily Entry">
+</form>
+<ul>
+    <li ng-repeat="daily_entry in daily_entries">
+        {{daily_entry.date | date:midDate}} - <a href='/#/daily_entry/{{daily_entry.id}}'>Link to Daily Entry</a>
+    </li>
+</ul>

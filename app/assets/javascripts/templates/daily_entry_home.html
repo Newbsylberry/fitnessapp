@@ -5,11 +5,17 @@
     <label>Time Weighed:</label>
     <input type="time" ng-model='newWeight.time_weighed'><br>
     <input type="submit" value="Add Daily Entry">
-    <ul>
-        <li ng-repeat="weight in daily_entry.weights">
-            {{weight.measured_weight}} - {{weight.time_weighed | date:'h:mma'}} -
-            <a href='' ng-click="deleteWeight(weight.id, $index)">Remove</a>
-        </li>
-    </ul>
+    <table class="table">
+        <tr">
+            <td>Time Weighed</td>
+            <td>Measured Weight</td>
+            <td>Difference From Average</td>
+        </tr>
+        <tr ng-repeat="weight in daily_entry.weights">
+            <td>{{weight.time_weighed | date: 'H:mm:ss:a'}}</td>
+            <td>{{weight.measured_weight}}</td>
+            <td>{{weight.difference_from_daily_average}}</td>
+        </tr>
+    </table>
     <a href='#/'>Back Home</a>
 </form>

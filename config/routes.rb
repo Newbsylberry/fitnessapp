@@ -1,10 +1,11 @@
 Fitnessapp::Application.routes.draw do
 
-  resources :weights
+
 
   scope :api do
     resources :daily_entries, defaults: {format: :json}
     resources :weights, defaults: {format: :json}
+    resources :diaries, defaults: {format: :json}
   end
 
 

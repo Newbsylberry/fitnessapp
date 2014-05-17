@@ -4,7 +4,7 @@
     <list default="true" id="c94a7014-f5d8-4217-81e1-78768481bca3" name="Default" comment="" />
     <ignored path="fitnessapp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$PROJECT_DIR$/../jobshadow/.idea/workspace.xml" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1400329455354" ignored="false" />
+    <file path="$PROJECT_DIR$/../jobshadow/.idea/workspace.xml" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1400329747394" ignored="false" />
     <file path="/database.yml" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399862772671" ignored="false" />
     <file path="/Gemfile" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399863370168" ignored="false" />
     <file path="$PROJECT_DIR$/../riskapp/Gemfile" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399863111905" ignored="false" />
@@ -65,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20140512041540_create_weights.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="20140512041540_create_weights.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db/migrate/20140512041540_create_weights.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="32" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+            <state line="5" column="32" selection-start="187" selection-end="187" vertical-scroll-proportion="0.18028846">
               <folding />
             </state>
           </provider>
@@ -92,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="62" selection-start="3201" selection-end="3201" vertical-scroll-proportion="0.6754808">
+            <state line="77" column="62" selection-start="3201" selection-end="3201" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -668,13 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140512041540_create_weights.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="32" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140513005155_create_diaries.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -691,7 +684,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="62" selection-start="3201" selection-end="3201" vertical-scroll-proportion="0.6754808">
+        <state line="77" column="62" selection-start="3201" selection-end="3201" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140512041540_create_weights.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="32" selection-start="187" selection-end="187" vertical-scroll-proportion="0.18028846">
           <folding />
         </state>
       </provider>

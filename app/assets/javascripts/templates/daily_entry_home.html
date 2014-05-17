@@ -6,16 +6,26 @@
     <input type="time" ng-model='newWeight.time_weighed'><br>
     <input type="submit" value="Add Daily Entry">
     <table class="table table-bordered table-responsive">
-        <tr">
+        <tr>
             <td>Time Weighed</td>
             <td>Measured Weight</td>
-            <td>Difference From Average</td>
+            <td>Difference From Daily Average</td>
+            <td>Diary Average at Time</td>
+            <td>Difference From Diary Average at Time</td>
+            <td>Current Diary Average</td>
+            <td>Difference From Current Diary Average</td>
+            <td>Delete</td>
         </tr>
         <tr ng-repeat="weight in daily_entry.weights">
             <td>{{weight.time_weighed | date: 'H:mm:ss:a Z'}}</td>
             <td>{{weight.measured_weight}}</td>
-            <td>{{weight.difference_from_daily_average}}</td>
+            <td>{{weight.difference_from_daily_average | number:2}}</td>
+            <td>{{weight.diary_average_weight | number:2}}</td>
+            <td>{{weight.measured_weight - weight.diary_average_weight | number:2}}</td>
+            <td>{{daily_entry.diary_average_weight | number:2}}</td>
+            <td>{{weight.measured_weight - daily_entry.diary_average_weight | number:2}}</td>
+            <td><a href='' ng-click="deleteWeight(weight.id, $index)">Remove</a></td>
         </tr>
     </table>
-    <a href='#/'>Back Home</a>
+    <a href='/#/diary/{{daily_entry.diary_id}}'>Link to Diary</a>
 </form>

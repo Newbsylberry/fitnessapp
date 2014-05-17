@@ -1,16 +1,31 @@
-app.controller('FitnessHomeCtrl', ['$scope', 'DailyEntry', function($scope, DailyEntry) {
-    $scope.daily_entries = DailyEntry.all();
+app.controller('FitnessHomeCtrl', ['$scope', '$routeParams', 'DailyEntry', 'Diary',
+    function($scope, $routeParams, DailyEntry, Diary) {
 
-    $scope.createDailyEntry = function() {
-        var attr = {};
-        attr.date = ($scope.newDailyEntry.date);
-        var newDailyEntry = DailyEntry.create(attr);
-        $scope.daily_entries.push(newDailyEntry);
-        $scope.newDailyEntry.date = "";
-    };
+        Diary.get({diary_Id: $routeParams.diary_Id}, function(successResponse) {
+            $scope.diary = successResponse;
+            console.log("success response " + successResponse );
+            console.log(successResponse);
+        }, function(errorResponse) {
+            console.log("error response");
+            console.log(errorResponse);
+        });
 
-    $scope.deleteDailyEntry = function(id, idx) {
-        $scope.daily_entries.splice(idx, 1);
-        return DailyEntry.delete(id);
-    };
-}]);
+        $scope.daily_entries = DailyEntry.all();
+
+        $scope.createDailyEntry = function() {
+            var attr = {};
+            attr.date = ($scope.newDailyEntry.date);
+            attr.diary_id = ($scope.diary.id);
+            var newDailyEntry = DailyEntry.create(attr);
+            $scope.diary.daily_entries.push(newDailyEntry);
+            $scope.newDailyEntry.date = "";
+        };
+
+        $scope.deleteDailyEntry = function(id, idx) {
+            $scope.daily_entries.splice(idx, 1);
+            var daily_entries = $scope.diary.daily_entries;
+            daily_entries.splice(idx, 1);
+
+            return DailyEntry.delete(id);
+        };
+    }]);

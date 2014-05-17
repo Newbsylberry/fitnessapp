@@ -21,12 +21,13 @@ class DailyEntriesController < ApplicationController
 
   def show
     @daily_entry = DailyEntry.find(params[:id])
+    @diary = Diary.find_by_name(@daily_entry.diary.name)
   end
 
   private
 
   def daily_entry_params
-    params.require(:daily_entry).permit(:date)
+    params.require(:daily_entry).permit(:date, :diary_id)
   end
 
 end

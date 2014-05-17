@@ -26,7 +26,7 @@ class WeightsController < ApplicationController
   private
 
   def weight_params
-    params.require(:weight).permit(:daily_entry_id, :time_weighed, :measured_weight)
+    params.require(:weight).permit(:daily_entry_id, :time_weighed, :measured_weight, :diary_average_weight)
   end
 
 end

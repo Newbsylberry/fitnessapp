@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140513005155) do
+ActiveRecord::Schema.define(version: 20140513034958) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20140513005155) do
     t.datetime "date"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "diary_id"
   end
 
   create_table "diaries", force: true do |t|
@@ -34,6 +35,7 @@ ActiveRecord::Schema.define(version: 20140513005155) do
     t.datetime "updated_at"
     t.time     "time_weighed"
     t.decimal  "measured_weight"
+    t.decimal  "diary_average_weight"
   end
 
 end

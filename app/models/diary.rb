@@ -7,9 +7,9 @@ class Diary < ActiveRecord::Base
   end
 
   def total_weight_loss
-    first_weight = weights.first
-    last_weight = weights.last
-    weight_loss = first_weight.measured_weight - last_weight.measured_weight
+    first_weight = daily_entries.first
+    last_weight = daily_entries.last
+    weight_loss = first_weight.average_daily_weight - last_weight.average_daily_weight
   end
 
 

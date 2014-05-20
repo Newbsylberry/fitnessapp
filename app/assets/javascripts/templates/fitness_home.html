@@ -4,7 +4,7 @@
     <input type="date" ng-model='newDailyEntry.date'><br>
     <input type="submit" value="Add Daily Entry">
 </form>
-<ul>
+
     <table class="table table-bordered table-responsive">
         <tr>
             <td>Date</td>
@@ -18,10 +18,10 @@
         <td>{{daily_entry.date | date:midDate}}</td>
         <td>{{daily_entry.average_daily_weight | number:2 }}</td>
         <td>{{daily_entry.average_daily_weight - daily_entry.average_weight_at_date | number:2 }}</td>
-        <td>{{daily_entry.average_daily_weight - diary.diary_average_weight | number:2 }}</td>
+        <td>{{daily_entry.average_daily_weight - diary.average_weight | number:2 }}</td>
         <td><a href='/#/daily_entry/{{daily_entry.id}}'>Link to Daily Entry</a></td>
         <td><a href='' ng-click="deleteDailyEntry(daily_entry.id, $index)">Remove</a></td>
     </tr>
     </table>
-</ul>
+    <h3>{{diary.name}} Total Weight Lost: {{diary.total_weight_loss | number:2}}</h3>
 <a href='/#'>Link to Diary List</a>

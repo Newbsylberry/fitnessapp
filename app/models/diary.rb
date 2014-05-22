@@ -12,5 +12,15 @@ class Diary < ActiveRecord::Base
     weight_loss = first_weight.average_daily_weight - last_weight.average_daily_weight
   end
 
-
+  def last_week_weight_loss
+    previous_week = Array.new
+    daily_entries.each do |daily_entry|
+      if Time.now - daily_entry.created_at < 60*60*24*7
+        previous_week.push daily_entry
+      end
+    end
+        first_weight = previous_week.first
+        last_weight = previous_week.last
+        weight_loss = first_weight.average_daily_weight - last_weight.average_daily_weight
+  end
 end

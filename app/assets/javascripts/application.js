@@ -11,7 +11,7 @@
 // about supported directives.
 //
 
-
+//= require local_time
 //= require angular
 //= require angular-resource
 //= require angular-route

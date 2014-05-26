@@ -11,14 +11,16 @@
             <td>Average Weight</td>
             <td>Difference from Diary Average at Time</td>
             <td>Difference from Current Diary Average</td>
+            <td>Difference from Previous Day</td>
             <td>Link</td>
             <td>Remove</td>
         </tr>
-    <tr ng-repeat="daily_entry in diary.daily_entries">
+    <tr ng-repeat="daily_entry in diary.daily_entries | orderBy : 'date' : 'reverse'">
         <td>{{daily_entry.date | date:midDate}}</td>
         <td>{{daily_entry.average_daily_weight | number:2 }}</td>
         <td>{{daily_entry.average_daily_weight - daily_entry.average_weight_at_date | number:2 }}</td>
         <td>{{daily_entry.average_daily_weight - diary.average_weight | number:2 }}</td>
+        <td>{{daily_entry.weight_difference_from_previous_day | number:2 }}</td>
         <td><a href='/#/daily_entry/{{daily_entry.id}}'>Link to Daily Entry</a></td>
         <td><a href='' ng-click="deleteDailyEntry(daily_entry.id, $index)">Remove</a></td>
     </tr>

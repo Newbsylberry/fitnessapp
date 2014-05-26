@@ -19,9 +19,10 @@ class Diary < ActiveRecord::Base
         previous_week.push daily_entry
       end
     end
-    puts previous_week.count
         first_weight = previous_week.first
         last_weight = previous_week.last
         weight_loss = first_weight.average_daily_weight - last_weight.average_daily_weight
   end
+
+
 end

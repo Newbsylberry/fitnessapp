@@ -30,6 +30,7 @@ gem 'coffee-rails', '~> 4.0.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'local_time'
 
 # Angular stuff goes here
 gem 'angularjs-rails'

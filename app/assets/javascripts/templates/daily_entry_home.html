@@ -21,9 +21,9 @@
             <td>{{weight.measured_weight}}</td>
             <td>{{weight.difference_from_daily_average | number:2}}</td>
             <td>{{weight.diary_average_weight | number:2}}</td>
-            <td>{{weight.measured_weight - weight.diary_average_weight | number:2}}</td>
+            <td>{{weight.difference_from_diary_average_at_time | number:2}}</td>
             <td>{{daily_entry.diary_average_weight | number:2}}</td>
-            <td>{{weight.measured_weight - daily_entry.diary_average_weight | number:2}}</td>
+            <td>{{weight.difference_from_current_diary_average | number:2}}</td>
             <td><a href='' ng-click="deleteWeight(weight.id, $index)">Remove</a></td>
         </tr>
     </table>

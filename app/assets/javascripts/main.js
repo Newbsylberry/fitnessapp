@@ -1,9 +1,9 @@
 var app = angular.module("FitnessApp", [
     'ngResource',
     'ngRoute',
-    'templates'
-    // "highcharts-ng"
-]);
+    'templates',
+    'highcharts-ng'
+    ]);
 
 app.config(['$routeProvider',
     function($routeProvider) {

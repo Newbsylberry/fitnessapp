@@ -1,16 +1,25 @@
 app.controller('FitnessHomeCtrl', ['$scope', '$routeParams', 'DailyEntry', 'Diary',
     function($scope, $routeParams, DailyEntry, Diary) {
 
+
+        var weightDashAddWeight = function(daily_entry) {
+            $scope.weightDashboardConfig.series[0].data.push([daily_entry.date,
+                parseFloat(daily_entry.average_daily_weight)]);
+        };
+
+
+
         Diary.get({diary_Id: $routeParams.diary_Id}, function(successResponse) {
             $scope.diary = successResponse;
             console.log("success response " + successResponse );
             console.log(successResponse);
+            angular.forEach(successResponse.daily_entries, weightDashAddWeight);
+            $scope.daily_entries = successResponse.daily_entries;
+
         }, function(errorResponse) {
             console.log("error response");
             console.log(errorResponse);
         });
-
-        $scope.daily_entries = DailyEntry.all();
 
         $scope.createDailyEntry = function() {
             var attr = {};
@@ -20,7 +29,6 @@ app.controller('FitnessHomeCtrl', ['$scope', '$routeParams', 'DailyEntry', 'Diar
             $scope.diary.daily_entries.push(newDailyEntry);
             $scope.newDailyEntry.date = "";
         };
-
         $scope.deleteDailyEntry = function(id, idx) {
             $scope.daily_entries.splice(idx, 1);
             var daily_entries = $scope.diary.daily_entries;
@@ -28,4 +36,29 @@ app.controller('FitnessHomeCtrl', ['$scope', '$routeParams', 'DailyEntry', 'Diar
 
             return DailyEntry.delete(id);
         };
+
+        $scope.weightDashboardConfig = {
+            options: {
+                chart: {
+                    type: 'line'
+                },
+                zoomType: 'xy'
+            },
+            series: [{
+                name: 'Weight',
+                data: []
+            }],
+            title: {
+                text: 'Weight History'
+            },
+            xAxis: {
+                type: 'datetime'
+            },
+            yAxis: {
+                plotLines:[]
+            },
+            loading: false
+        }
+
+
     }]);

@@ -4,8 +4,15 @@
     <input type="number" step="any" ng-model='newWeight.measured_weight'><br>
     <label>Time Weighed:</label>
     <input type="time" ng-model='newWeight.time_weighed'><br>
-    <input type="submit" value="Add Daily Entry">
+    <input type="submit" value="Add Weigh In"><br>
+</form>
+    <form ng-submit="updateDailyEntry()">
+        <textarea area="10" ng-model="daily_description">
+            Describe Your Day:</textarea><br>
+        <input type="submit" value="Add Daily Description">
+    </form>
     <table class="table table-bordered table-responsive">
+        {{daily_description}}
         <tr>
             <td>Time Weighed</td>
             <td>Measured Weight</td>

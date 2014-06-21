@@ -3,6 +3,7 @@ app.controller('FitnessHomeCtrl', ['$scope', '$routeParams', 'DailyEntry', 'Diar
 
 
         var weightDashAddWeight = function(daily_entry) {
+        if (daily_entry.average_daily_weight)
             $scope.weightDashboardConfig.series[0].data.push([daily_entry.date,
                 parseFloat(daily_entry.average_daily_weight)]);
         };
@@ -14,8 +15,6 @@ app.controller('FitnessHomeCtrl', ['$scope', '$routeParams', 'DailyEntry', 'Diar
             console.log("success response " + successResponse );
             console.log(successResponse);
             angular.forEach(successResponse.daily_entries, weightDashAddWeight);
-            $scope.daily_entries = successResponse.daily_entries;
-
         }, function(errorResponse) {
             console.log("error response");
             console.log(errorResponse);
@@ -29,13 +28,14 @@ app.controller('FitnessHomeCtrl', ['$scope', '$routeParams', 'DailyEntry', 'Diar
             $scope.diary.daily_entries.push(newDailyEntry);
             $scope.newDailyEntry.date = "";
         };
+
         $scope.deleteDailyEntry = function(id, idx) {
-            $scope.daily_entries.splice(idx, 1);
-            var daily_entries = $scope.diary.daily_entries;
-            daily_entries.splice(idx, 1);
+            $scope.diary.daily_entries.splice(idx, 1);
 
             return DailyEntry.delete(id);
         };
+
+
 
         $scope.weightDashboardConfig = {
             options: {

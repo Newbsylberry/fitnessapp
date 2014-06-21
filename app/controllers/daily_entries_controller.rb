@@ -27,7 +27,7 @@ class DailyEntriesController < ApplicationController
   private
 
   def daily_entry_params
-    params.require(:daily_entry).permit(:date, :diary_id)
+    params.require(:daily_entry).permit(:date, :diary_id, :daily_description)
   end
 
 end

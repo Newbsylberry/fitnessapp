@@ -19,7 +19,9 @@ class DailyEntry < ActiveRecord::Base
   end
 
   def weight_difference_from_previous_day
-    average_daily_weight - prev.average_daily_weight if prev
+    if average_daily_weight
+      average_daily_weight  - prev.average_daily_weight if prev
+    end
   end
 
 end

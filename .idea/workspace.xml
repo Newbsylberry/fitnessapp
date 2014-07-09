@@ -37,7 +37,7 @@
     <file path="/diaries.html" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399945861665" ignored="false" />
     <file path="/diaries_controller.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399945572881" ignored="false" />
     <file path="/20140512041540_create_weights.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1400329149495" ignored="false" />
-    <file path="/Dummy.txt" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1403354713440" ignored="false" />
+    <file path="/Dummy.txt" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1403999452347" ignored="false" />
     <file path="$PROJECT_DIR$/../riskapp/app/assets/javascripts/main.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1401160274083" ignored="false" />
     <file path="$PROJECT_DIR$/../jobshadow/app/views/schools/_form.html.erb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1403147529326" ignored="false" />
     <file path="/_form.html.erb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1403147527880" ignored="false" />
@@ -86,7 +86,7 @@
       <file leaf-file-name="fitness_home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/fitness_home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="72" selection-start="1301" selection-end="1301" vertical-scroll-proportion="-13.75">
+            <state line="29" column="72" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,7 +104,7 @@
       <file leaf-file-name="daily_entry_home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/daily_entry_home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="12" selection-start="1591" selection-end="1591" vertical-scroll-proportion="-17.541666">
+            <state line="33" column="12" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -122,7 +122,7 @@
       <file leaf-file-name="daily_entry_home_ctrl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/daily_entry_home_ctrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="36" selection-start="532" selection-end="532" vertical-scroll-proportion="0.28846154">
+            <state line="10" column="36" selection-start="532" selection-end="532" vertical-scroll-proportion="0.23255815">
               <folding />
             </state>
           </provider>
@@ -194,10 +194,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="72" />
-    <option name="y" value="58" />
-    <option name="width" value="1217" />
-    <option name="height" value="668" />
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="793" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -226,6 +225,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -366,18 +366,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../issheintome" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Rails.Development: fitnessapp">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -627,14 +626,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="72" y="58" width="1217" height="668" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="793" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31426132" sideWeight="0.670977" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31922525" sideWeight="0.670977" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -734,16 +733,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/diaries_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/daily_entries_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="76" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="29" column="76" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
@@ -797,14 +792,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/fitness_home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="72" selection-start="1301" selection-end="1301" vertical-scroll-proportion="-13.75">
+        <state line="29" column="72" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/daily_entry_home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="12" selection-start="1591" selection-end="1591" vertical-scroll-proportion="-17.541666">
+        <state line="33" column="12" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -818,7 +813,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/daily_entry_home_ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="36" selection-start="532" selection-end="532" vertical-scroll-proportion="0.28846154">
+        <state line="10" column="36" selection-start="532" selection-end="532" vertical-scroll-proportion="0.23255815">
           <folding />
         </state>
       </provider>

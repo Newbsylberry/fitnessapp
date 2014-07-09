@@ -4,6 +4,10 @@
     <input type="date" ng-model='newDailyEntry.date'><br>
     <input type="submit" value="Add Daily Entry">
 </form>
+<h3>{{diary.name}} Previous 7 Days Weight Loss: {{diary.last_week_weight_loss | number:2}} pounds</h3>
+<h3>{{diary.name}} Total Weight Loss: {{diary.total_weight_loss | number:2}} pounds</h3>
+<h3>{{diary.name}} Average Weight: {{diary.average_weight | number:2}} pounds</h3>
+<a href='/#'>Link to Diary List</a>
 
 
     <highchart config="weightDashboardConfig"></highchart>
@@ -30,6 +34,4 @@
         <td><a href='' ng-click="deleteDailyEntry(daily_entry.id, $index)">Remove</a></td>
     </tr>
     </table>
-    <h3>{{diary.name}} Previous 7 Days Weight Loss: {{diary.last_week_weight_loss | number:2}} pounds</h3>
-    <h3>{{diary.name}} Total Weight Loss: {{diary.total_weight_loss | number:2}} pounds</h3>
-<a href='/#'>Link to Diary List</a>
+

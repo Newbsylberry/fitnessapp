@@ -20,10 +20,14 @@ class Diary < ActiveRecord::Base
         previous_week.push daily_entry
       end
     end
+      if previous_week.count <= 1
+        return 0
+      else
         first_weight = previous_week.first
         last_weight = previous_week.last
-        weight_loss = first_weight.average_daily_weight -
+        weight_loss = first_weight.average_daily_weight if first_weight.average_daily_weight -
             last_weight.average_daily_weight if last_weight.average_daily_weight
+      end
   end
 
 

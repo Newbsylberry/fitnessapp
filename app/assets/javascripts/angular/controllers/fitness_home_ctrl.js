@@ -27,9 +27,12 @@ app.controller('FitnessHomeCtrl', ['$scope', '$routeParams', 'DailyEntry', 'Diar
             $scope.newDailyEntry.date = "";
         };
 
-        $scope.deleteDailyEntry = function(id, idx) {
-            $scope.diary.daily_entries.splice(idx, 1);
-            return DailyEntry.delete(id);
+        $scope.deleteDailyEntry = function(daily_entry) {
+            var index = $scope.diary.daily_entries.indexOf(daily_entry);
+            if ( index != -1 ) {
+                $scope.diary.daily_entries.splice(index, 1);
+                return DailyEntry.delete(daily_entry.id);
+            }
         };
 
 

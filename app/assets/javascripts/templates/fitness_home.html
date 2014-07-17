@@ -31,7 +31,7 @@
         <td>{{daily_entry.average_daily_weight - diary.average_weight | number:2 }}</td>
         <td>{{daily_entry.weight_difference_from_previous_day | number:2 }}</td>
         <td><a href='/#/daily_entry/{{daily_entry.id}}'>Link to Daily Entry</a></td>
-        <td><a href='' ng-click="deleteDailyEntry(daily_entry.id, $index)">Remove</a></td>
+        <td><a href='' ng-click="deleteDailyEntry(daily_entry)">Remove</a></td>
     </tr>
     </table>
 

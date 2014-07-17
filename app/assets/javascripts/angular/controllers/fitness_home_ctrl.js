@@ -8,8 +8,6 @@ app.controller('FitnessHomeCtrl', ['$scope', '$routeParams', 'DailyEntry', 'Diar
                 parseFloat(daily_entry.average_daily_weight)]);
         };
 
-
-
         Diary.get({diary_Id: $routeParams.diary_Id}, function(successResponse) {
             $scope.diary = successResponse;
             console.log("success response " + successResponse );
@@ -31,7 +29,6 @@ app.controller('FitnessHomeCtrl', ['$scope', '$routeParams', 'DailyEntry', 'Diar
 
         $scope.deleteDailyEntry = function(id, idx) {
             $scope.diary.daily_entries.splice(idx, 1);
-
             return DailyEntry.delete(id);
         };
 

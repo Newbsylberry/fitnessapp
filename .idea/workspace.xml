@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c94a7014-f5d8-4217-81e1-78768481bca3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/diary.rb" afterPath="$PROJECT_DIR$/app/models/diary.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/unicorn.rb" afterPath="$PROJECT_DIR$/config/unicorn.rb" />
     </list>
     <ignored path="fitnessapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,6 +59,7 @@
     <file path="/edit.html.erb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1403150483661" ignored="false" />
     <file path="/unicorn_init.sh" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405557257740" ignored="false" />
     <file path="/nginx.conf" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405557524660" ignored="false" />
+    <file path="/unicorn.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405558494416" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,19 +97,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nginx.conf" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="nginx.conf" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nginx.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="37" selection-start="56" selection-end="56" vertical-scroll-proportion="0.02245509">
+            <state line="25" column="57" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="unicorn.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="unicorn.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/unicorn.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="31" selection-start="216" selection-end="216" vertical-scroll-proportion="-1.6363636">
+            <state line="14" column="49" selection-start="423" selection-end="423" vertical-scroll-proportion="0.3425775">
               <folding />
             </state>
           </provider>
@@ -164,10 +163,10 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/fitness_home_ctrl.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/templates/fitness_home.html" />
         <option value="$PROJECT_DIR$/app/models/diary.rb" />
-        <option value="$PROJECT_DIR$/config/unicorn.rb" />
         <option value="$PROJECT_DIR$/config/unicorn_init.sh" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/nginx.conf" />
+        <option value="$PROJECT_DIR$/config/unicorn.rb" />
       </list>
     </option>
   </component>
@@ -689,13 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/unicorn.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="216" selection-end="216" vertical-scroll-proportion="-1.6363636">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Capfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="69" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
@@ -712,7 +704,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="37" selection-start="56" selection-end="56" vertical-scroll-proportion="0.02245509">
+        <state line="25" column="57" selection-start="598" selection-end="598" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/unicorn.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="49" selection-start="423" selection-end="423" vertical-scroll-proportion="0.3425775">
           <folding />
         </state>
       </provider>

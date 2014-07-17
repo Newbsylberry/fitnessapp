@@ -1,4 +1,4 @@
-root = "/home/fitnessapp/apps/fitnessapp/current"
+root = "/home/riskapp/apps/fitnessapp/current"
 working_directory root
 pid "#{root}/tmp/pids/unicorn.pid"
 stderr_path "#{root}/log/unicorn.log"

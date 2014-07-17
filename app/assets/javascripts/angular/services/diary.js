@@ -6,7 +6,7 @@ app.factory('Diary', ['$resource', function($resource) {
         return this.service.query();
     };
     Diary.prototype.delete = function(dId) {
-        this.service.remove({daily_entry_Id: dId});
+        this.service.remove({diary_Id: dId});
     };
     Diary.prototype.get = function(id, successCallback, errorCallback) {
         this.service.get(id, successCallback, errorCallback);

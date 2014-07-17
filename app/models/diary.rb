@@ -25,9 +25,12 @@ class Diary < ActiveRecord::Base
       else
         first_weight = previous_week.first
         last_weight = previous_week.last
+        if first_weight.average_daily_weight and last_weight.average_daily_weight
         weight_loss = first_weight.average_daily_weight -
             last_weight.average_daily_weight
-      end
+
+        end
+        end
   end
 
 

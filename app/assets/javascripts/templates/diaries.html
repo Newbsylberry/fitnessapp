@@ -6,6 +6,7 @@
 </form>
 <ul>
     <li ng-repeat="diary in diaries">
-        {{diary.name}} - <a href='/#/diary/{{diary.id}}'>Link to Diary</a>
+        {{diary.name}} - <a href='/#/diary/{{diary.id}}'>Link to Diary</a> |
+        <a href='' ng-click="deleteDiary(diary.id, $index)">Remove</a>
     </li>
 </ul>

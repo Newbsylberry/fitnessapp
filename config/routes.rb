@@ -2,6 +2,7 @@ Fitnessapp::Application.routes.draw do
 
 
 
+  devise_for :users
   scope :api do
     resources :daily_entries, defaults: {format: :json}
     resources :weights, defaults: {format: :json}

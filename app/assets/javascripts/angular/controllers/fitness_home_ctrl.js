@@ -1,5 +1,5 @@
-app.controller('FitnessHomeCtrl', ['$scope', '$routeParams', 'DailyEntry', 'Diary',
-    function($scope, $routeParams, DailyEntry, Diary) {
+app.controller('FitnessHomeCtrl', ['$scope', '$routeParams', '$filter', 'DailyEntry', 'Diary',
+    function($scope, $routeParams, $filter, DailyEntry, Diary) {
 
 
         var weightDashAddWeight = function(daily_entry) {
@@ -12,7 +12,8 @@ app.controller('FitnessHomeCtrl', ['$scope', '$routeParams', 'DailyEntry', 'Diar
             $scope.diary = successResponse;
             console.log("success response " + successResponse );
             console.log(successResponse);
-            angular.forEach(successResponse.daily_entries, weightDashAddWeight);
+            var daily_entries_ordered = $filter('orderBy')(successResponse.daily_entries, 'date');
+            angular.forEach(daily_entries_ordered, weightDashAddWeight);
         }, function(errorResponse) {
             console.log("error response");
             console.log(errorResponse);

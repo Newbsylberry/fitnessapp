@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c94a7014-f5d8-4217-81e1-78768481bca3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/devise-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/landing_page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/landing_page_ctrl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/angular/services/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/diary.rb" afterPath="$PROJECT_DIR$/app/models/diary.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/main.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fitnessapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -10,12 +20,12 @@
     <file path="/database.yml" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399862772671" ignored="false" />
     <file path="/Gemfile" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405624235855" ignored="false" />
     <file path="$PROJECT_DIR$/../riskapp/Gemfile" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399863111905" ignored="false" />
-    <file path="/routes.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399942507393" ignored="false" />
+    <file path="/routes.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405783920839" ignored="false" />
     <file path="/application.html.erb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399863799186" ignored="false" />
     <file path="/fitness_home.html" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1404870265261" ignored="false" />
     <file path="/fitness_home_ctrl.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405743196734" ignored="false" />
     <file path="$PROJECT_DIR$/../riskapp/app/assets/javascripts/application.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1401159862738" ignored="false" />
-    <file path="/main.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399945141726" ignored="false" />
+    <file path="/main.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405798384696" ignored="false" />
     <file path="$PROJECT_DIR$/../riskapp/config/routes.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399865373134" ignored="false" />
     <file path="/daily_entry.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399865562939" ignored="false" />
     <file path="/daily_entries_controller.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1403355234084" ignored="false" />
@@ -33,13 +43,13 @@
     <file path="/20140512044952_drop_weight_column_from_weights.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399870210111" ignored="false" />
     <file path="/20140512045436_drop_column_from_weights.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399870497798" ignored="false" />
     <file path="/application.css" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399940173260" ignored="false" />
-    <file path="/diary.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405744189343" ignored="false" />
+    <file path="/diary.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405798650181" ignored="false" />
     <file path="/diary.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405561823440" ignored="false" />
     <file path="/diaries_ctrl.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399943822221" ignored="false" />
     <file path="/diaries.html" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405559715319" ignored="false" />
-    <file path="/diaries_controller.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399945572881" ignored="false" />
+    <file path="/diaries_controller.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405799184472" ignored="false" />
     <file path="/20140512041540_create_weights.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1400329149495" ignored="false" />
-    <file path="/Dummy.txt" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405628973188" ignored="false" />
+    <file path="/Dummy.txt" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405783867214" ignored="false" />
     <file path="$PROJECT_DIR$/../riskapp/app/assets/javascripts/main.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1401160274083" ignored="false" />
     <file path="$PROJECT_DIR$/../jobshadow/app/views/schools/_form.html.erb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1403147529326" ignored="false" />
     <file path="/_form.html.erb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1403147527880" ignored="false" />
@@ -60,6 +70,12 @@
     <file path="/unicorn_init.sh" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405558882592" ignored="false" />
     <file path="/nginx.conf" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405557524660" ignored="false" />
     <file path="/unicorn.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405558494416" ignored="false" />
+    <file path="/user.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405784962478" ignored="false" />
+    <file path="/landing_page.html" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405798303732" ignored="false" />
+    <file path="/landing_page_ctrl.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405798267023" ignored="false" />
+    <file path="/registrations_controller.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405792154927" ignored="false" />
+    <file path="/application_controller.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405793674928" ignored="false" />
+    <file path="/user.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405798623685" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,48 +95,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="diary.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="diary.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/diary.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="33" selection-start="938" selection-end="938" vertical-scroll-proportion="0.6818182">
+            <state line="2" column="18" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fitness_home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/fitness_home.html">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="61" selection-start="1601" selection-end="1601" vertical-scroll-proportion="-20.625">
+            <state line="9" column="68" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="80" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0">
+            <state line="17" column="34" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fitness_home_ctrl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/fitness_home_ctrl.js">
+      <file leaf-file-name="diaries_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/diaries_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="87" selection-start="862" selection-end="862" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1656#2145#0" expanded="false" />
-              </folding>
+            <state line="5" column="17" selection-start="104" selection-end="104" vertical-scroll-proportion="0.1177394">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <file leaf-file-name="landing_page.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/landing_page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="33" selection-start="353" selection-end="353" vertical-scroll-proportion="-5.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="7" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landing_page_ctrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/landing_page_ctrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="67" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.json.jbuilder" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/diaries/index.json.jbuilder">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="19" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="34" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,28 +203,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/main.js" />
-        <option value="$PROJECT_DIR$/app/controllers/daily_entries_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/daily_entry_home.html" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/daily_entry_home_ctrl.js" />
-        <option value="$PROJECT_DIR$/app/views/diaries/show.json.jbuilder" />
-        <option value="$PROJECT_DIR$/app/models/daily_entry.rb" />
-        <option value="$PROJECT_DIR$/config/deploy.rb" />
-        <option value="$PROJECT_DIR$/nginx.conf" />
-        <option value="$PROJECT_DIR$/config/unicorn.rb" />
-        <option value="$PROJECT_DIR$/config/unicorn_init.sh" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/diaries.html" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/angular/services/diary.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/templates/fitness_home.html" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/fitness_home_ctrl.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/angular/services/user.js" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/registrations_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/registrations_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/landing_page.html" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/main.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/landing_page_ctrl.js" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/models/diary.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/diaries_controller.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="27" />
+    <option name="x" value="34" />
+    <option name="y" value="42" />
     <option name="width" value="1388" />
     <option name="height" value="785" />
   </component>
@@ -176,7 +235,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -195,8 +254,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,6 +287,10 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -243,7 +306,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="diaries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnessapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnessapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnessapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnessapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnessapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnessapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -254,15 +371,20 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../riskapp" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myFridge" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/javascripts" />
+      <recent name="$PROJECT_DIR$/app/assets/javascripts/angular/services" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/controllers" />
       <recent name="$PROJECT_DIR$/config" />
     </key>
   </component>
@@ -493,7 +615,9 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
@@ -531,14 +655,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="27" width="1388" height="785" extended-state="6" />
+    <frame x="34" y="42" width="1388" height="785" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25782415" sideWeight="0.670977" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26154992" sideWeight="0.670977" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -615,60 +739,35 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/daily_entries_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/weight.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/daily_entry.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/weights_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/diaries_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="14" selection-start="383" selection-end="383" vertical-scroll-proportion="0.4266467" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/diaries_ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="107" selection-start="469" selection-end="469" vertical-scroll-proportion="0.35942492">
+        <state line="15" column="107" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/diaries.html">
+    <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="75" selection-start="396" selection-end="396" vertical-scroll-proportion="0.29268292">
+        <state line="217" column="38" selection-start="11034" selection-end="11034" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/services/diary.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/fitness_home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="54" selection-start="730" selection-end="730" vertical-scroll-proportion="0.46948355">
+        <state line="33" column="61" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.7783019">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/services/weight.js">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/services/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="43" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/devise-min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -677,44 +776,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/daily_entry_home_ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="75" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.5399061">
+        <state line="2" column="116" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="80" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0">
+        <state line="9" column="68" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/fitness_home.html">
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="61" selection-start="1601" selection-end="1601" vertical-scroll-proportion="-20.625">
+        <state line="15" column="7" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/fitness_home_ctrl.js">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="87" selection-start="862" selection-end="862" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1656#2145#0" expanded="false" />
-          </folding>
+        <state line="15" column="34" selection-start="457" selection-end="457" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/landing_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="9" column="33" selection-start="353" selection-end="353" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="34" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="19" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/diary.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="33" selection-start="938" selection-end="938" vertical-scroll-proportion="0.6818182">
+        <state line="2" column="18" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/landing_page_ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="67" selection-start="654" selection-end="654" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/diaries/index.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/diaries_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="104" selection-end="104" vertical-scroll-proportion="0.1177394">
           <folding />
         </state>
       </provider>

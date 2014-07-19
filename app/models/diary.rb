@@ -1,4 +1,5 @@
 class Diary < ActiveRecord::Base
+  belongs_to :user
   has_many :daily_entries
   has_many :weights, through: :daily_entries
 

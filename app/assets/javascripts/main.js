@@ -2,13 +2,23 @@ var app = angular.module("FitnessApp", [
     'ngResource',
     'ngRoute',
     'templates',
-    'highcharts-ng'
-    ]);
+    'highcharts-ng',
+    'Devise'
+    ]).
+    config(function(AuthProvider) {
+        AuthProvider.registerPath('/api/users.json');
+        AuthProvider.loginPath('/api/users/sign_in.json');
+        AuthProvider.logoutPath('/api/users/sign_out.json');
+    });
 
 app.config(['$routeProvider',
     function($routeProvider) {
         $routeProvider.
             when('/', {
+                templateUrl: 'landing_page.html',
+                controller: 'LandingPageCtrl'
+            }).
+            when('/:user_Id/:daily_entry_Id', {
                 templateUrl: 'diaries.html',
                 controller: 'DiariesCtrl'
             }).

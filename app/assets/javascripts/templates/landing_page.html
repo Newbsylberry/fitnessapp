@@ -1,0 +1,22 @@
+<h1>Fitness Application</h1>
+<h3>Sign In</h3>
+<form ng-submit="logInUser()" class="form-inline">
+    <label>Enter Email Address:</label>
+    <input ng-model="logIn.email">
+    <label>Enter Password:</label><input type="password" ng-model="logIn.password">
+    <input type="submit" value="Sign In">
+</form>
+<a href='' ng-click="logOutUser()">Log Out</a>
+
+
+<h3>Sign Up</h3>
+<form ng-submit="createUser()">
+    <label>Enter Email Address:</label>
+    <input ng-model="newUser.email">
+    <label>Enter Password:</label><input type="password" ng-model="newUser.password">
+    <label>Confirm Password:</label><input type="password" ng-model="newUser.password_confirmation"><br>
+    <input type="submit" value="Add Account">
+    <div ng-if="newUser.password != newUser.password_confirmation">
+        <h1>THE PASSWORDS DON'T MATCH IDIOT</h1>
+    </div>
+</form>

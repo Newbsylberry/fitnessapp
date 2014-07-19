@@ -29,6 +29,7 @@ class Diary < ActiveRecord::Base
       if previous_week.count <= 1
         return 0
       else
+        previous_week.sort! { |a,b| a.date <=> b.date }
         first_weight = previous_week.first
         last_weight = previous_week.last
         weight_loss = first_weight.average_daily_weight -

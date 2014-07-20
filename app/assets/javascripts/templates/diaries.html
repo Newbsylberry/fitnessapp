@@ -1,9 +1,10 @@
-<h1>Add Diary:</h1>
+<h1>Add Training Diary:</h1>
 <form ng-submit="createDiary()">
     <label>Dairy Name:</label>
     <input type="text" ng-model='newDiary.name'><br>
     <input type="submit" value="Add Diary">
 </form>
+<h3>{{user.email}}'s Training Diaries</h3>
 <ul>
     <li ng-repeat="diary in diaries">
         {{diary.name}} - <a href='/#/diary/{{diary.id}}'>Link to Diary</a> |

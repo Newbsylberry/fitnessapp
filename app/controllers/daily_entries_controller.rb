@@ -1,4 +1,5 @@
 class DailyEntriesController < ApplicationController
+  before_action :authenticate_user!, :check_if_users_entries
   respond_to :json
 
 
@@ -28,6 +29,12 @@ class DailyEntriesController < ApplicationController
 
   def daily_entry_params
     params.require(:daily_entry).permit(:date, :diary_id, :daily_description)
+  end
+
+  def check_if_users_entries
+    if current_user != DailyEntry.find(params[:id]).diary.user
+      render :status => :unauthorized
+    end
   end
 
 end

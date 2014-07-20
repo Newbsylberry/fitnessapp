@@ -18,7 +18,7 @@ app.config(['$routeProvider',
                 templateUrl: 'landing_page.html',
                 controller: 'LandingPageCtrl'
             }).
-            when('/:user_Id/:daily_entry_Id', {
+            when('/diaries', {
                 templateUrl: 'diaries.html',
                 controller: 'DiariesCtrl'
             }).

@@ -1,5 +1,5 @@
-app.controller('LandingPageCtrl', ['$scope', '$routeParams', 'User', 'Auth',
-    function($scope, $routeParams, User, Auth) {
+app.controller('LandingPageCtrl', ['$scope', '$location', '$routeParams', 'Auth',
+    function($scope, $location, $routeParams, Auth) {
 
 
         $scope.createUser = function () {
@@ -14,7 +14,12 @@ app.controller('LandingPageCtrl', ['$scope', '$routeParams', 'User', 'Auth',
             var logInCredentials = {};
             logInCredentials.email = $scope.logIn.email;
             logInCredentials.password = $scope.logIn.password;
-            Auth.login(logInCredentials)
+            Auth.login(logInCredentials).then(function(user) {
+                alert("Welcome, " + user.email)
+                $location.path( "/diaries")
+            }, function(error) {
+                alert("Login Failed :(");
+            });
         };
 
         $scope.logOutUser = function () {

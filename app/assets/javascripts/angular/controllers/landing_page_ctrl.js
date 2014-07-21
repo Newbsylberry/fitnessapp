@@ -17,7 +17,11 @@ app.controller('LandingPageCtrl', ['$scope', '$location', '$routeParams', 'Auth'
             credentials.email = $scope.newUser.email;
             credentials.password = $scope.newUser.password;
             credentials.password_confirmation = $scope.newUser.password_confirmation;
-            Auth.register(credentials)
+            Auth.register(credentials);
+            $scope.newUser.email = "";
+            $scope.newUser.password = "";
+            $scope.newUser.password_confirmation = "";
+            alert("Thanks for registering, now sign in!");
         };
 
         $scope.logInUser = function () {

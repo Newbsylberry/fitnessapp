@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c94a7014-f5d8-4217-81e1-78768481bca3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/daily_entries_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/daily_entries_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/templates/daily_entry_home.html" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/daily_entry_home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/daily_entry_home_ctrl.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/daily_entry_home_ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/templates/diaries.html" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/diaries.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/diaries_ctrl.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/diaries_ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/templates/fitness_home.html" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/fitness_home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/fitness_home_ctrl.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/fitness_home_ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/templates/header.html" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/header_ctrl.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/header_ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/templates/landing_page.html" afterPath="$PROJECT_DIR$/app/assets/javascripts/templates/landing_page.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/landing_page_ctrl.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/landing_page_ctrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -50,7 +40,7 @@
     <file path="/diaries.html" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405882531511" ignored="false" />
     <file path="/diaries_controller.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405903826817" ignored="false" />
     <file path="/20140512041540_create_weights.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1400329149495" ignored="false" />
-    <file path="/Dummy.txt" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405783867214" ignored="false" />
+    <file path="/Dummy.txt" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405908114623" ignored="false" />
     <file path="$PROJECT_DIR$/../riskapp/app/assets/javascripts/main.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1401160274083" ignored="false" />
     <file path="$PROJECT_DIR$/../jobshadow/app/views/schools/_form.html.erb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1403147529326" ignored="false" />
     <file path="/_form.html.erb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1403147527880" ignored="false" />
@@ -73,7 +63,7 @@
     <file path="/unicorn.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405558494416" ignored="false" />
     <file path="/user.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405784962478" ignored="false" />
     <file path="/landing_page.html" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405878409359" ignored="false" />
-    <file path="/landing_page_ctrl.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405907449467" ignored="false" />
+    <file path="/landing_page_ctrl.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405908592454" ignored="false" />
     <file path="/registrations_controller.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405792154927" ignored="false" />
     <file path="/application_controller.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405793674928" ignored="false" />
     <file path="/user.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405798623685" ignored="false" />
@@ -101,7 +91,7 @@
       <file leaf-file-name="fitness_home_ctrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/fitness_home_ctrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="33" selection-start="1662" selection-end="2445" vertical-scroll-proportion="0.0">
+            <state line="35" column="62" selection-start="1652" selection-end="1652" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -119,7 +109,7 @@
       <file leaf-file-name="landing_page_ctrl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/landing_page_ctrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="39" selection-start="360" selection-end="360" vertical-scroll-proportion="0.16483517">
+            <state line="24" column="10" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.5651491">
               <folding />
             </state>
           </provider>
@@ -137,7 +127,7 @@
       <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="40" selection-start="251" selection-end="251" vertical-scroll-proportion="-3.75">
+            <state line="6" column="40" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -173,7 +163,7 @@
       <file leaf-file-name="diaries.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/diaries.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="630" selection-end="630" vertical-scroll-proportion="-8.75">
+            <state line="14" column="17" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -257,8 +247,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -478,12 +468,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../myFridge" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -769,7 +759,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26154992" sideWeight="0.670977" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26602086" sideWeight="0.670977" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -855,16 +845,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/fitness_home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="46" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
+        <state line="1" column="46" selection-start="64" selection-end="64" vertical-scroll-proportion="-0.625" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/landing_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="62" selection-start="734" selection-end="734" vertical-scroll-proportion="-10.0">
-          <folding />
-        </state>
+        <state line="16" column="62" selection-start="734" selection-end="734" vertical-scroll-proportion="-10.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/daily_entry_home.html">
@@ -911,14 +897,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/diaries.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="630" selection-end="630" vertical-scroll-proportion="-8.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/fitness_home_ctrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="33" selection-start="1662" selection-end="2445" vertical-scroll-proportion="0.0">
+        <state line="14" column="17" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -939,7 +918,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="40" selection-start="251" selection-end="251" vertical-scroll-proportion="-3.75">
+        <state line="6" column="40" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -951,9 +930,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/fitness_home_ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="62" selection-start="1652" selection-end="1652" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/landing_page_ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="39" selection-start="360" selection-end="360" vertical-scroll-proportion="0.16483517">
+        <state line="24" column="10" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.5651491">
           <folding />
         </state>
       </provider>

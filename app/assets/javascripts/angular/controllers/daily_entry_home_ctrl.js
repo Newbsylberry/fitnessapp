@@ -35,6 +35,7 @@ app.controller('DailyEntryHomeCtrl', ['$scope', '$routeParams', '$http', '$locat
             attr.id = ($scope.daily_entry.id);
             attr.daily_description = ($scope.newDescription.daily_description);
             DailyEntry.update(attr);
+            $scope.daily_entry.daily_description = attr.daily_description;
             $scope.newDescription.daily_description = "";
         };
 

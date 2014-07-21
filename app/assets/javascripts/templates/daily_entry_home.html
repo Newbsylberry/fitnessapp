@@ -1,6 +1,6 @@
 <div class="row">
-    <div class="col-xs-12">
-        <div ng-include src="'header.html'"></div>
+    <div ng-include src="'header.html'"></div>
+    <div class="col-xs-6">
         <h1>Enter Weight for {{daily_entry.date | date:midDate}}</h1>
         <form ng-submit="createWeight()">
             <label>Weight:</label>
@@ -10,12 +10,17 @@
             <input type="submit" value="Add Weigh In"><br>
         </form>
         <form ng-submit="updateDailyEntry()">
-            <textarea area="10" ng-model="daily_description">
+            <textarea area="10" ng-model="newDescription.daily_description">
                 Describe Your Day:</textarea><br>
             <input type="submit" value="Add Daily Description">
         </form>
+    </div>
+    <div class="col-xs-6">
+        <h1>How was today?</h1>
+        <div class="lead">{{daily_entry.daily_description}}</div>
+    </div>
+    <div class="col-xs-12">
         <table class="table table-bordered table-responsive">
-            {{daily_description}}
             <tr>
                 <td>Time Weighed</td>
                 <td>Measured Weight</td>
@@ -37,6 +42,7 @@
                 <td><a href='' ng-click="deleteWeight(weight.id, $index)">Remove</a></td>
             </tr>
         </table>
+    </div>
         <a href='/#/diary/{{daily_entry.diary_id}}'>Link to Diary</a>
         </form>
     </div>

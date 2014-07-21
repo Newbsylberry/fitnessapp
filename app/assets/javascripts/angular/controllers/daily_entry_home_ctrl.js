@@ -33,9 +33,9 @@ app.controller('DailyEntryHomeCtrl', ['$scope', '$routeParams', '$http', '$locat
         $scope.updateDailyEntry = function() {
             var attr = {};
             attr.id = ($scope.daily_entry.id);
-            attr.daily_description = ($scope.daily_description);
+            attr.daily_description = ($scope.newDescription.daily_description);
             DailyEntry.update(attr);
-            $scope.daily_description = "";
+            $scope.newDescription.daily_description = "";
         };
 
         $scope.$on('devise:unauthorized', function(event, xhr, deferred) {

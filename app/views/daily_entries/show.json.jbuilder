@@ -1,4 +1,4 @@
-json.(@daily_entry, :id, :date, :diary_id)
+json.(@daily_entry, :id, :date, :daily_description, :diary_id)
 json.diary_average_weight @diary.weights.average(:measured_weight)
 
 json.weights @daily_entry.weights do |json, weight|

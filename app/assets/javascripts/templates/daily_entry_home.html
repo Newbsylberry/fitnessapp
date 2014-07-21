@@ -1,38 +1,43 @@
-<h1>Enter Weight for {{daily_entry.date | date:midDate}}</h1>
-<form ng-submit="createWeight()">
-    <label>Weight:</label>
-    <input type="number" step="any" ng-model='newWeight.measured_weight'><br>
-    <label>Time Weighed:</label>
-    <input type="time" ng-model='newWeight.time_weighed'><br>
-    <input type="submit" value="Add Weigh In"><br>
-</form>
-    <form ng-submit="updateDailyEntry()">
-        <textarea area="10" ng-model="daily_description">
-            Describe Your Day:</textarea><br>
-        <input type="submit" value="Add Daily Description">
-    </form>
-    <table class="table table-bordered table-responsive">
-        {{daily_description}}
-        <tr>
-            <td>Time Weighed</td>
-            <td>Measured Weight</td>
-            <td>Difference From Daily Average</td>
-            <td>Diary Average at Time</td>
-            <td>Difference From Diary Average at Time</td>
-            <td>Current Diary Average</td>
-            <td>Difference From Current Diary Average</td>
-            <td>Delete</td>
-        </tr>
-        <tr ng-repeat="weight in daily_entry.weights">
-            <td>{{weight.time_weighed | date: 'shortTime' }}</td>
-            <td>{{weight.measured_weight}}</td>
-            <td>{{weight.difference_from_daily_average | number:2}}</td>
-            <td>{{weight.diary_average_weight | number:2}}</td>
-            <td>{{weight.difference_from_diary_average_at_time | number:2}}</td>
-            <td>{{daily_entry.diary_average_weight | number:2}}</td>
-            <td>{{weight.difference_from_current_diary_average | number:2}}</td>
-            <td><a href='' ng-click="deleteWeight(weight.id, $index)">Remove</a></td>
-        </tr>
-    </table>
-    <a href='/#/diary/{{daily_entry.diary_id}}'>Link to Diary</a>
-</form>
+<div class="row">
+    <div class="col-xs-12">
+        <div ng-include src="'header.html'"></div>
+        <h1>Enter Weight for {{daily_entry.date | date:midDate}}</h1>
+        <form ng-submit="createWeight()">
+            <label>Weight:</label>
+            <input type="number" step="any" ng-model='newWeight.measured_weight'><br>
+            <label>Time Weighed:</label>
+            <input type="time" ng-model='newWeight.time_weighed'><br>
+            <input type="submit" value="Add Weigh In"><br>
+        </form>
+        <form ng-submit="updateDailyEntry()">
+            <textarea area="10" ng-model="daily_description">
+                Describe Your Day:</textarea><br>
+            <input type="submit" value="Add Daily Description">
+        </form>
+        <table class="table table-bordered table-responsive">
+            {{daily_description}}
+            <tr>
+                <td>Time Weighed</td>
+                <td>Measured Weight</td>
+                <td>Difference From Daily Average</td>
+                <td>Diary Average at Time</td>
+                <td>Difference From Diary Average at Time</td>
+                <td>Current Diary Average</td>
+                <td>Difference From Current Diary Average</td>
+                <td>Delete</td>
+            </tr>
+            <tr ng-repeat="weight in daily_entry.weights">
+                <td>{{weight.time_weighed | date: 'shortTime' }}</td>
+                <td>{{weight.measured_weight}}</td>
+                <td>{{weight.difference_from_daily_average | number:2}}</td>
+                <td>{{weight.diary_average_weight | number:2}}</td>
+                <td>{{weight.difference_from_diary_average_at_time | number:2}}</td>
+                <td>{{daily_entry.diary_average_weight | number:2}}</td>
+                <td>{{weight.difference_from_current_diary_average | number:2}}</td>
+                <td><a href='' ng-click="deleteWeight(weight.id, $index)">Remove</a></td>
+            </tr>
+        </table>
+        <a href='/#/diary/{{daily_entry.diary_id}}'>Link to Diary</a>
+        </form>
+    </div>
+</div>

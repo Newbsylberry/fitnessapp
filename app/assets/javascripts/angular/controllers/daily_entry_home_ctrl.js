@@ -1,5 +1,7 @@
-app.controller('DailyEntryHomeCtrl', ['$scope', '$routeParams', 'DailyEntry', 'Weight',
-    function($scope, $routeParams, DailyEntry, Weight) {
+app.controller('DailyEntryHomeCtrl', ['$scope', '$routeParams', '$http', '$location', 'DailyEntry', 'Weight',
+    function($scope, $routeParams, $http, $location, DailyEntry, Weight) {
+
+
 
         DailyEntry.get({daily_entry_Id: $routeParams.daily_entry_Id}, function(successResponse) {
             $scope.daily_entry = successResponse;
@@ -35,5 +37,24 @@ app.controller('DailyEntryHomeCtrl', ['$scope', '$routeParams', 'DailyEntry', 'W
             DailyEntry.update(attr);
             $scope.daily_description = "";
         };
+
+        $scope.$on('devise:unauthorized', function(event, xhr, deferred) {
+            // Ask user for login credentials
+            alert("Please Sign In!");
+            $location.path('/');
+//        Auth.login(credentials).then(function() {
+//            // Successfully logged in.
+//            // Redo the original request.
+//            return $http(xhr.config);
+//        }).then(function(response) {
+//                // Successfully recovered from unauthorized error.
+//                // Resolve the original request's promise.
+//                deferred.resolve(response);
+//            }, function(error) {
+//                // There was an error.
+//                // Reject the original request's promise.
+//                deferred.reject(error);
+//            });
+        });
 
     }]);

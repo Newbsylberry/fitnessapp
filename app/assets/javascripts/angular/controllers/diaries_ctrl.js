@@ -1,4 +1,25 @@
-app.controller('DiariesCtrl', ['$scope', 'Diary', 'Auth', function($scope, Diary, Auth) {
+app.controller('DiariesCtrl', ['$scope', '$http', '$location', 'Diary', 'Auth',
+    function($scope, $http, $location, Diary, Auth) {
+
+
+    $scope.$on('devise:unauthorized', function(event, xhr, deferred) {
+        // Ask user for login credentials
+        alert("Please Sign In!");
+        $location.path('/');
+//        Auth.login(credentials).then(function() {
+//            // Successfully logged in.
+//            // Redo the original request.
+//            return $http(xhr.config);
+//        }).then(function(response) {
+//                // Successfully recovered from unauthorized error.
+//                // Resolve the original request's promise.
+//                deferred.resolve(response);
+//            }, function(error) {
+//                // There was an error.
+//                // Reject the original request's promise.
+//                deferred.reject(error);
+//            });
+    });
 
 
     Auth.currentUser().then(function(user) {

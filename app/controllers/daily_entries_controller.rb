@@ -1,5 +1,6 @@
 class DailyEntriesController < ApplicationController
-  before_action :authenticate_user!, :check_if_users_entries
+  before_action :authenticate_user!,
+                :check_if_users_entries
   respond_to :json
 
 

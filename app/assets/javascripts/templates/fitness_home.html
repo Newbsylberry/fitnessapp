@@ -1,37 +1,36 @@
-<h1>Add {{diary.name}} Daily Entry:</h1>
-<form ng-submit="createDailyEntry()">
-    <label>Daily Entry Date:</label>
-    <input type="date" ng-model='newDailyEntry.date'><br>
-    <input type="submit" value="Add Daily Entry">
-</form>
-<h3>{{diary.name}} Previous 7 Days Weight Loss: {{diary.last_week_weight_loss | number:2}} pounds</h3>
-<h3>{{diary.name}} Total Weight Loss: {{diary.total_weight_loss | number:2}} pounds</h3>
-<h3>{{diary.name}} Average Weight: {{diary.average_weight | number:2}} pounds</h3>
-<a href='#/diaries'>Link to Diary List</a>
-
-
-    <highchart config="weightDashboardConfig"></highchart>
-
-
-
-    <table class="table table-bordered table-responsive">
-        <tr>
-            <td>Date</td>
-            <td>Average Weight</td>
-            <td>Difference from Diary Average at Time</td>
-            <td>Difference from Current Diary Average</td>
-            <td>Difference from Previous Day</td>
-            <td>Link</td>
-            <td>Remove</td>
-        </tr>
-    <tr ng-repeat="daily_entry in diary.daily_entries | orderBy : 'date' : 'reverse'">
-        <td>{{daily_entry.date | date:midDate}}</td>
-        <td>{{daily_entry.average_daily_weight | number:2 }}</td>
-        <td>{{daily_entry.average_daily_weight - daily_entry.average_weight_at_date | number:2 }}</td>
-        <td>{{daily_entry.average_daily_weight - diary.average_weight | number:2 }}</td>
-        <td>{{daily_entry.weight_difference_from_previous_day | number:2 }}</td>
-        <td><a href='/#/daily_entry/{{daily_entry.id}}'>Link to Daily Entry</a></td>
-        <td><a href='' ng-click="deleteDailyEntry(daily_entry)">Remove</a></td>
-    </tr>
-    </table>
-
+<div class="row">
+    <div ng-include src="'header.html'"></div>
+    <div class="col-xs-12">
+        <h1>Add {{diary.name}} Daily Entry:</h1>
+        <form ng-submit="createDailyEntry()">
+            <label>Daily Entry Date:</label>
+            <input type="date" ng-model='newDailyEntry.date'><br>
+            <input type="submit" value="Add Daily Entry">
+        </form>
+        <h3>{{diary.name}} Previous 7 Days Weight Loss: {{diary.last_week_weight_loss | number:2}} pounds</h3>
+        <h3>{{diary.name}} Total Weight Loss: {{diary.total_weight_loss | number:2}} pounds</h3>
+        <h3>{{diary.name}} Average Weight: {{diary.average_weight | number:2}} pounds</h3>
+        <a href='#/diaries'>Link to Diary List</a>
+        <highchart config="weightDashboardConfig"></highchart>
+        <table class="table table-bordered table-responsive">
+            <tr>
+                <td>Date</td>
+                <td>Average Weight</td>
+                <td>Difference from Diary Average at Time</td>
+                <td>Difference from Current Diary Average</td>
+                <td>Difference from Previous Day</td>
+                <td>Link</td>
+                <td>Remove</td>
+            </tr>
+            <tr ng-repeat="daily_entry in diary.daily_entries | orderBy : 'date' : 'reverse'">
+                <td>{{daily_entry.date | date:midDate}}</td>
+                <td>{{daily_entry.average_daily_weight | number:2 }}</td>
+                <td>{{daily_entry.average_daily_weight - daily_entry.average_weight_at_date | number:2 }}</td>
+                <td>{{daily_entry.average_daily_weight - diary.average_weight | number:2 }}</td>
+                <td>{{daily_entry.weight_difference_from_previous_day | number:2 }}</td>
+                <td><a href='/#/daily_entry/{{daily_entry.id}}'>Link to Daily Entry</a></td>
+                <td><a href='' ng-click="deleteDailyEntry(daily_entry)">Remove</a></td>
+            </tr>
+        </table>
+    </div>
+</div>

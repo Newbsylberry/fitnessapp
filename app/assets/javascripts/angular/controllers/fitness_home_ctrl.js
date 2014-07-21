@@ -1,6 +1,5 @@
-app.controller('FitnessHomeCtrl', ['$scope', '$routeParams', '$filter', 'DailyEntry', 'Diary',
-    function($scope, $routeParams, $filter, DailyEntry, Diary) {
-
+app.controller('FitnessHomeCtrl', ['$scope', '$routeParams', '$http', '$location', '$filter', 'DailyEntry', 'Diary',
+    function($scope, $routeParams, $http, $location, $filter, DailyEntry, Diary) {
 
         var weightDashAddWeight = function(daily_entry) {
         if (daily_entry.average_daily_weight)
@@ -35,6 +34,25 @@ app.controller('FitnessHomeCtrl', ['$scope', '$routeParams', '$filter', 'DailyEn
                 return DailyEntry.delete(daily_entry.id);
             }
         };
+
+        $scope.$on('devise:unauthorized', function(event, xhr, deferred) {
+            // Ask user for login credentials
+            alert("Please Sign In!");
+            $location.path('/');
+//        Auth.login(credentials).then(function() {
+//            // Successfully logged in.
+//            // Redo the original request.
+//            return $http(xhr.config);
+//        }).then(function(response) {
+//                // Successfully recovered from unauthorized error.
+//                // Resolve the original request's promise.
+//                deferred.resolve(response);
+//            }, function(error) {
+//                // There was an error.
+//                // Reject the original request's promise.
+//                deferred.reject(error);
+//            });
+        });
 
 
 

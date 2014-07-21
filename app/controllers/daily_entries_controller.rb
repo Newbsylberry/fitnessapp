@@ -1,6 +1,6 @@
 class DailyEntriesController < ApplicationController
   before_action :authenticate_user!,
-                :check_if_users_entries
+                :check_if_users_entries, except: [:create, :index]
   respond_to :json
 
 

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c94a7014-f5d8-4217-81e1-78768481bca3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/landing_page_ctrl.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/landing_page_ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/daily_entries_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/daily_entries_controller.rb" />
     </list>
     <ignored path="fitnessapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -19,7 +18,7 @@
     <file path="/main.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405798384696" ignored="false" />
     <file path="$PROJECT_DIR$/../riskapp/config/routes.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399865373134" ignored="false" />
     <file path="/daily_entry.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399865562939" ignored="false" />
-    <file path="/daily_entries_controller.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405903889456" ignored="false" />
+    <file path="/daily_entries_controller.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405909063241" ignored="false" />
     <file path="/index.json.jbuilder" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399945662382" ignored="false" />
     <file path="/daily_entry_home.html" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405882569556" ignored="false" />
     <file path="/weight.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1399869160853" ignored="false" />
@@ -106,10 +105,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landing_page_ctrl.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="landing_page_ctrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/landing_page_ctrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="10" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.5651491">
+            <state line="24" column="10" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -151,10 +150,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="daily_entries_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="daily_entries_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/daily_entries_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="36" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
+            <state line="2" column="49" selection-start="139" selection-end="156" vertical-scroll-proportion="0.04709576">
               <folding />
             </state>
           </provider>
@@ -209,9 +208,9 @@
         <option value="$PROJECT_DIR$/app/controllers/diaries_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/diaries_ctrl.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/fitness_home_ctrl.js" />
-        <option value="$PROJECT_DIR$/app/controllers/daily_entries_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/daily_entry_home_ctrl.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/landing_page_ctrl.js" />
+        <option value="$PROJECT_DIR$/app/controllers/daily_entries_controller.rb" />
       </list>
     </option>
   </component>
@@ -881,20 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/diaries_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/daily_entries_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="36" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/diaries.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="17" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
@@ -923,13 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/daily_entry_home_ctrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/fitness_home_ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="62" selection-start="1652" selection-end="1652" vertical-scroll-proportion="0.0">
@@ -939,7 +917,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/landing_page_ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="10" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.5651491">
+        <state line="24" column="10" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/controllers/daily_entry_home_ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/diaries_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/daily_entries_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="49" selection-start="139" selection-end="156" vertical-scroll-proportion="0.04709576">
           <folding />
         </state>
       </provider>

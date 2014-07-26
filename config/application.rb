@@ -15,7 +15,7 @@ module Fitnessapp
 
     config.middleware.use Rack::Cors do
       allow do
-        origins 'http://10.10.60.9:8100/'
+        origins '*'
         resource '*', :headers => :any, :methods => [:get, :post, :options]
       end
     end

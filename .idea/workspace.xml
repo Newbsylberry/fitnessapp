@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c94a7014-f5d8-4217-81e1-78768481bca3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/header_ctrl.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/header_ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fitnessapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,6 +68,7 @@
     <file path="/user.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405798623685" ignored="false" />
     <file path="/header.html" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405896743400" ignored="false" />
     <file path="/header_ctrl.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405896675789" ignored="false" />
+    <file path="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/header_ctrl.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1406397509833" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +91,7 @@
       <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="32" selection-start="490" selection-end="490" vertical-scroll-proportion="0.38516405">
+            <state line="17" column="18" selection-start="434" selection-end="434" vertical-scroll-proportion="0.36376604">
               <folding />
             </state>
           </provider>
@@ -677,7 +674,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="32" selection-start="490" selection-end="490" vertical-scroll-proportion="0.38516405">
+        <state line="17" column="18" selection-start="434" selection-end="434" vertical-scroll-proportion="0.36376604">
           <folding />
         </state>
       </provider>

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c94a7014-f5d8-4217-81e1-78768481bca3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fitnessapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,7 +65,7 @@
     <file path="/landing_page.html" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405878409359" ignored="false" />
     <file path="/landing_page_ctrl.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405908592454" ignored="false" />
     <file path="/registrations_controller.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405792154927" ignored="false" />
-    <file path="/application_controller.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405793674928" ignored="false" />
+    <file path="/application_controller.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1406401794806" ignored="false" />
     <file path="/user.rb" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405798623685" ignored="false" />
     <file path="/header.html" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405896743400" ignored="false" />
     <file path="/header_ctrl.js" changelist="c94a7014-f5d8-4217-81e1-78768481bca3" time="1405896675789" ignored="false" />
@@ -88,10 +89,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="18" selection-start="434" selection-end="434" vertical-scroll-proportion="0.36376604">
+            <state line="26" column="56" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="29" selection-start="189" selection-end="189" vertical-scroll-proportion="0.06419401">
               <folding />
             </state>
           </provider>
@@ -115,7 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/templates/diaries.html" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/templates/fitness_home.html" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/templates/landing_page.html" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/templates/header.html" />
@@ -131,6 +140,7 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/angular/controllers/header_ctrl.js" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
       </list>
     </option>
   </component>
@@ -195,7 +205,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnessapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fitnessapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -575,11 +603,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/angular/services/diary.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/templates/diaries.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="17" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" />
@@ -674,7 +697,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="18" selection-start="434" selection-end="434" vertical-scroll-proportion="0.36376604">
+        <state line="26" column="56" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="29" selection-start="189" selection-end="189" vertical-scroll-proportion="0.06419401">
           <folding />
         </state>
       </provider>

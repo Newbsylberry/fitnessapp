@@ -7,7 +7,6 @@ gem 'rails', '4.0.2'
 gem 'pg'
 
 #Deployment gems
-
 gem 'unicorn'
 gem 'capistrano'
 gem 'rvm-capistrano'
@@ -29,7 +28,6 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer', platforms: :ruby
 
 # user gems
-
 gem 'devise'
 gem 'omniauth'
 gem 'uuidtools'
@@ -49,6 +47,9 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+
+# Allow Cross-Origin Resource Sharing for specific domains
+gem 'rack-cors', :require => 'rack/cors'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
